@@ -10,7 +10,4 @@ class TextPlugin(AbstractPlugin):
         pass
 
     def handle_entry(self, entry):
-        pass
-
-    def handle_comment(self, comment):
-        pass
+        print(f"Got entry:{entry}")

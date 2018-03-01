@@ -19,11 +19,6 @@ class AbstractPlugin(ABC):
     def handle_entry(self, entry):
         pass
 
-    @abstractmethod
-    def handle_comment(self, comment):
-        pass
-
-
 def name_to_instance(l):
     longname = l.strip()
     dot_index = longname.rfind(".")

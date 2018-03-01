@@ -37,9 +37,6 @@ class MySQLPlugin(AbstractPlugin):
     def handle_entry(self, entry):
         pass
 
-    def handle_comment(self, comment):
-        pass
-
     def connect(self):
         print(f"connecting to {self.host_field.get()}/{self.db_field.get()} as {self.user_field.get()}:{self.password_field.get()}")
         self.dlg.destroy()
