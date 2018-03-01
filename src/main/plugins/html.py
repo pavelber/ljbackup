@@ -11,6 +11,3 @@ class HTMLPlugin(AbstractPlugin):
 
     def handle_entry(self, entry):
         pass
-
-    def handle_comment(self, comment):
-        pass
